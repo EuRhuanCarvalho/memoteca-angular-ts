@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 })
 export class PensamentoComponent {
   @Input() pensamento: Pensamento = {
-    id: 0,
+    id: "",
     conteudo: 'I love Angular',
     autoria: 'Rhuan',
     modelo: 'modelo3'
