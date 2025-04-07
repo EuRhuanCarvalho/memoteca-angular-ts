@@ -5,9 +5,10 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-pensamento',
+  standalone: true,
   imports: [
     NgClass,
-    RouterModule
+    RouterModule,
   ],
   templateUrl: './pensamento.component.html',
   styleUrl: './pensamento.component.css'
